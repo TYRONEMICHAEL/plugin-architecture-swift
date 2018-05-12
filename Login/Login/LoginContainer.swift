@@ -8,7 +8,7 @@ import Foundation
 
 public final class LoginContainer {
 
-    fileprivate var registry = [String: [() -> Any]]()
+    private var registry = [String: [() -> Any]]()
     private init() {}
     
 }

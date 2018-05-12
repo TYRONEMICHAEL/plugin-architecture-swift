@@ -26,13 +26,13 @@ public final class Authenticator {
     
 }
 
-extension Authenticator {
+private extension Authenticator {
     
-    fileprivate func successfulLogin(plugin: PostLoginSuccessPlugin) {
+    func successfulLogin(plugin: PostLoginSuccessPlugin) {
         plugin.successfulLogin(userId: "1234")
     }
     
-    fileprivate func failedLogin(plugin: PostLoginFailurePlugin) {
+    func failedLogin(plugin: PostLoginFailurePlugin) {
         plugin.failedLogin(error: FailedLogin.userNotFound)
     }
     
