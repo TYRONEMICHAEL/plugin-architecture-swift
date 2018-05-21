@@ -27,9 +27,9 @@ public extension LoginContainer {
 
 internal extension LoginContainer {
     
-    func resolve<T>(forPlugin pluginToResolve: T.Type) -> [T] {
+    func resolve<Plugin>(forPlugin pluginToResolve: Plugin.Type) -> [Plugin] {
         let key = String(describing: pluginToResolve)
-        guard let plugins = registry[key]?.compactMap({ $0() as? T }), !plugins.isEmpty else {
+        guard let plugins = registry[key]?.compactMap({ $0() as? Plugin }), !plugins.isEmpty else {
             return []
         }
         return plugins
