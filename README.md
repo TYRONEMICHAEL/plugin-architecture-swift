@@ -4,4 +4,5 @@ This is the playground for the following [Extending modules using a plugin archi
 
 ## Steps
 
+* Open the workspace
 * Build the Login module before running playgrounds
