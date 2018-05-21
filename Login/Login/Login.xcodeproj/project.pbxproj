@@ -11,7 +11,6 @@
 		63ACB479209DCFE3002F2BEC /* Authenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63ACB478209DCFE3002F2BEC /* Authenticator.swift */; };
 		63ACB47D20A06CBF002F2BEC /* LoginContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63ACB47C20A06CBF002F2BEC /* LoginContainer.swift */; };
 		63ACB47F20A06E32002F2BEC /* PostLoginSuccessPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63ACB47E20A06E32002F2BEC /* PostLoginSuccessPlugin.swift */; };
-		63ACBA3120A07AFD00B3A439 /* Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63ACBA3020A07AFD00B3A439 /* Common.framework */; };
 		63B393DB20A08B3F0077FE28 /* PostLoginFailurePlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B393DA20A08B3F0077FE28 /* PostLoginFailurePlugin.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,7 +30,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63ACBA3120A07AFD00B3A439 /* Common.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
